@@ -1,0 +1,180 @@
+
+
+:root {
+    min-height: 100%;
+    min-width: 100%;
+    background-color:wheat ;
+    display: flex;
+    flex-direction: column;
+  }
+
+  main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  /*Header format for navigation bar */
+  header {
+    padding: 40px;
+  }
+  
+  nav {
+    display: flex;
+    background-color: wheat;
+    justify-content: right;
+     }
+
+     nav a:hover {
+      color: #fff;
+    }
+  
+
+     nav ul {
+      min-width: 300px;
+      list-style-type: none;
+      }
+
+      nav a {
+        color: #13293d;
+        padding: 14px 20px;
+        text-decoration: none;
+        text-align: center;
+      }
+
+ /*abaout Víctor Vallejo section format*/
+#About {
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+    justify-content:space-evenly;
+    background-color: white;
+    }
+
+#About div img  {  
+  display: flex;
+      display: block;
+      margin: 10px auto;
+      max-width: 150px;
+      }
+
+#About div p  {
+  display: flex;
+        padding: 10px;
+        justify-self: right;    
+        font-size: 25px;
+        color: darkslategray; 
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        border-bottom-style: solid;
+        border-bottom-color: black;
+        }
+/* first homework formating */
+article     {   
+      height: 300px;
+      display: flex;
+      flex-wrap: wrap;
+      background-color: lightblue;
+    }
+
+    #HR  {      
+    }
+  
+
+    article img  {  
+      display: flex;
+      width: 15%;
+      }
+
+
+    article h2 a:hover {
+        color: #fff;
+      }
+
+/* Portfolio section formating */  
+
+    #Work {  
+        display: flex;
+        flex-wrap: wrap;
+        background-color: lightpink;
+        }
+
+
+        #Work div {
+          flex: 33.33%;
+        }
+
+        #Work img  {  
+          width: 20%;
+        }
+
+/* contact section formating */  
+footer  { 
+          padding: 40px;
+          display: flex;
+          flex-wrap: wrap;
+        }
+        
+  footer ul {
+        display: flex;
+        justify-content: space-evenly;
+        min-width: 300px;
+        list-style-type: none;
+        }
+
+   footer a:hover {
+          color: #fff;
+        }
+
+
+
+.float-left {
+          float: left;
+          margin-right: 25px;
+      }
+      
+.float-right {
+        float:right;
+        margin-right: 25px;
+    }
+
+
+
+h2 {
+    font-size: 25px;
+    color:dodgerblue;
+        }
+
+
+    
+       
+h3 {
+          font-size: 15px;
+          color:dodgerblue;
+        }
+
+h3:hover {
+          color: #fff;
+        }
+
+
+        /* Adjusting formating for screen sise adjustments */
+@media screen and (max-width: 992px) {
+          header {
+            flex-direction:column;
+            background: palegreen;
+          }
+
+          nav a {
+            color: darkslateblue;
+            text-size-adjust: 5px;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+          }
+
+          #About div p  {
+            font-size: inherit;
+            color: dimgrey;
+          }
+        }
+
+
+  
